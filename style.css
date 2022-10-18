@@ -1,0 +1,121 @@
+/* Style Keseluruhan */
+*{
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Ubuntu';
+}
+.wrapper {
+    width: fit-content;
+    height: 90px;
+    position: relative;
+}
+
+.logo{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Halimun';
+    color: #B9005B;
+}
+menu{
+    float: right;
+}
+nav{
+    width: 100%;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #F5E8C7;
+    z-index: 1;
+    border-bottom: 1px;
+}
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: #B9005B;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+section{
+    top: 0;
+    display: flex;
+    transition-duration: 5s;
+}
+.about {
+    display: flex;
+    flex-direction: flex;
+}
+.about img{
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 70%;
+    width: 300;
+    height: 300;
+}
+.typing {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h2{
+    font-size: 50;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+    color: #B9005B;
+}
+.typing h3{
+    font-size: 30;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+    color: #B9005B;
+}
+.typing P{
+    font-size: 15;
+    color: #B9005B;
+}
+/* education */
+.tengah{
+    text-align: center;
+    width: 100%;
+}
+.kolom {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.edu-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ed-list{
+    width: 25%;
+}
+.ed-list img{
+    width: 70%;
+    height: auto;
+}
+.ed-list p {
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+/* organization */
